@@ -6,5 +6,6 @@ class Chat < ActiveRecord::Migration[7.1]
       t.integer :messages_count, default: 0
       t.timestamps
   end
-  add_index :chats, :chat_number, unique: true
+add_index :chats, :chat_number
+end
 end

@@ -68,3 +68,5 @@ end
 
 gem 'elasticsearch-model', '~> 7.1'
 gem 'elasticsearch-rails', '~> 7.1'
+gem 'kaminari'
+gem 'sidekiq'
